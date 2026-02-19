@@ -1981,3 +1981,604 @@ Would you like to open the Output Log to see more details?
 [2026.02.19-14.20.58:573][293]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4731.164551
 [2026.02.19-14.20.59:572][296]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.02.19-14.20.59:572][296]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4731.832031, Update Interval: 339.621582
+[2026.02.19-14.26.20:531][243]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.02.19-14.26.20:542][243]LogContentBrowser: Creating deferred item: NewFolder
+[2026.02.19-14.26.20:552][244]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.02.19-14.26.22:466][441]LogContentBrowser: Attempting asset rename: NewFolder -> Wolf
+[2026.02.19-14.26.22:470][441]LogContentBrowser: End creating deferred item NewFolder
+[2026.02.19-14.26.36:420][975]LogContentBrowser: Deferred new asset file creation: NewBehaviorTree
+[2026.02.19-14.26.36:428][975]LogContentBrowser: Creating deferred item: NewBehaviorTree
+[2026.02.19-14.26.36:481][977]LogContentBrowser: Renaming the item being created (Deferred Item: NewBehaviorTree).
+[2026.02.19-14.26.42:002][612]LogContentBrowser: Attempting asset rename: NewBehaviorTree -> BT_Wolf
+[2026.02.19-14.26.42:013][612]LogContentBrowser: End creating deferred item NewBehaviorTree
+[2026.02.19-14.27.10:291][896]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Wolf/BT_Wolf.BT_Wolf
+[2026.02.19-14.27.12:043][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.27.12:132][ 45]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Wolf/BT_Wolf] ([1] browsable assets)...
+[2026.02.19-14.27.12:133][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolf/BT_Wolf]
+[2026.02.19-14.27.12:133][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolf/BT_Wolf" FILE="../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BT_Wolf.uasset" SILENT=true
+[2026.02.19-14.27.12:145][ 45]LogSavePackage: Moving output files for package: /Game/Wolf/BT_Wolf
+[2026.02.19-14.27.12:145][ 45]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/BT_Wolf3E5594FD41D95E46EAB2C99F4838432E.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BT_Wolf.uasset'
+[2026.02.19-14.27.12:169][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave took 126.127 ms
+[2026.02.19-14.27.12:219][ 45]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.27.12:219][ 45]LogContentValidation: Enabled validators:
+[2026.02.19-14.27.12:219][ 45]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.27.12:219][ 45]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.27.12:219][ 45]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.27.12:219][ 45]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.27.12:219][ 45]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.27.12:219][ 45]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.27.12:220][ 45]AssetCheck: /Game/Wolf/BT_Wolf Validating asset
+[2026.02.19-14.27.24:538][220]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5117.125000
+[2026.02.19-14.27.25:556][223]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-14.27.25:556][224]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5117.792969, Update Interval: 324.335449
+[2026.02.19-14.27.37:266][667]LogContentBrowser: Deferred new asset file creation: NewBlackboardData
+[2026.02.19-14.27.37:276][667]LogContentBrowser: Creating deferred item: NewBlackboardData
+[2026.02.19-14.27.37:291][668]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlackboardData).
+[2026.02.19-14.27.45:977][584]LogContentBrowser: Attempting asset rename: NewBlackboardData -> BBD_Wolf
+[2026.02.19-14.27.45:982][584]LogContentBrowser: End creating deferred item NewBlackboardData
+[2026.02.19-14.27.48:711][871]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.27.48:822][871]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Wolf/BBD_Wolf] ([1] browsable assets)...
+[2026.02.19-14.27.48:822][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolf/BBD_Wolf]
+[2026.02.19-14.27.48:822][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolf/BBD_Wolf" FILE="../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BBD_Wolf.uasset" SILENT=true
+[2026.02.19-14.27.48:829][871]LogSavePackage: Moving output files for package: /Game/Wolf/BBD_Wolf
+[2026.02.19-14.27.48:829][871]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/BBD_Wolf133104CC40231ACF0ADFCA99E8DA663A.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BBD_Wolf.uasset'
+[2026.02.19-14.27.48:851][871]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.362 ms (total: 266.489 ms)
+[2026.02.19-14.27.48:901][871]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.27.48:901][871]LogContentValidation: Enabled validators:
+[2026.02.19-14.27.48:901][871]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.27.48:901][871]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.27.48:901][871]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.27.48:901][871]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.27.48:901][871]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.27.48:901][871]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.27.48:901][871]AssetCheck: /Game/Wolf/BBD_Wolf Validating asset
+[2026.02.19-14.28.15:867][ 48]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/Wolf/BBD_Wolf.BBD_Wolf
+[2026.02.19-14.28.50:016][972]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.28.50:077][972]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Wolf/BBD_Wolf] ([1] browsable assets)...
+[2026.02.19-14.28.50:077][972]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolf/BBD_Wolf]
+[2026.02.19-14.28.50:077][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolf/BBD_Wolf" FILE="../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BBD_Wolf.uasset" SILENT=true
+[2026.02.19-14.28.50:079][972]LogSavePackage: Moving output files for package: /Game/Wolf/BBD_Wolf
+[2026.02.19-14.28.50:080][972]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/BBD_Wolf704CE548484C0474C3709C9E77ECD82E.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BBD_Wolf.uasset'
+[2026.02.19-14.28.50:090][972]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.307 ms (total: 339.797 ms)
+[2026.02.19-14.28.50:129][972]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.28.50:129][972]LogContentValidation: Enabled validators:
+[2026.02.19-14.28.50:129][972]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.28.50:129][972]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.28.50:129][972]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.28.50:129][972]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.28.50:129][972]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.28.50:129][972]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.28.50:129][972]AssetCheck: /Game/Wolf/BBD_Wolf Validating asset
+[2026.02.19-14.29.42:312][906]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.29.42:402][906]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Wolf/BBD_Wolf] ([1] browsable assets)...
+[2026.02.19-14.29.42:402][906]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolf/BBD_Wolf]
+[2026.02.19-14.29.42:402][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolf/BBD_Wolf" FILE="../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BBD_Wolf.uasset" SILENT=true
+[2026.02.19-14.29.42:408][906]LogSavePackage: Moving output files for package: /Game/Wolf/BBD_Wolf
+[2026.02.19-14.29.42:412][906]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/BBD_WolfF128E7B94291638F5B20F18F23ED529C.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BBD_Wolf.uasset'
+[2026.02.19-14.29.42:428][906]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.156 ms (total: 455.953 ms)
+[2026.02.19-14.29.42:485][906]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.29.42:485][906]LogContentValidation: Enabled validators:
+[2026.02.19-14.29.42:485][906]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.29.42:485][906]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.29.42:485][906]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.29.42:485][906]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.29.42:486][906]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.29.42:486][906]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.29.42:486][906]AssetCheck: /Game/Wolf/BBD_Wolf Validating asset
+[2026.02.19-14.30.00:546][768]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.30.00:595][768]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Wolf/BT_Wolf] ([1] browsable assets)...
+[2026.02.19-14.30.00:595][768]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolf/BT_Wolf]
+[2026.02.19-14.30.00:595][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolf/BT_Wolf" FILE="../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BT_Wolf.uasset" SILENT=true
+[2026.02.19-14.30.00:598][768]LogSavePackage: Moving output files for package: /Game/Wolf/BT_Wolf
+[2026.02.19-14.30.00:609][768]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/BT_WolfFFA0EDF04B05069A63889DA19B1E03BA.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BT_Wolf.uasset'
+[2026.02.19-14.30.00:621][768]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.219 ms (total: 531.172 ms)
+[2026.02.19-14.30.00:679][768]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.30.00:679][768]LogContentValidation: Enabled validators:
+[2026.02.19-14.30.00:679][768]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.30.00:679][768]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.30.00:679][768]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.30.00:679][768]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.30.00:679][768]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.30.00:679][768]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.30.00:679][768]AssetCheck: /Game/Wolf/BT_Wolf Validating asset
+[2026.02.19-14.30.06:215][211]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2026.02.19-14.30.14:333][895]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2026.02.19-14.30.57:088][399]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.02.19-14.30.57:104][399]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.02.19-14.30.57:109][399]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.02.19-14.30.57:122][400]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.02.19-14.31.03:315][105]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Wolf
+[2026.02.19-14.31.03:323][105]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Wolf/BP_Wolf.
+[2026.02.19-14.31.03:325][105]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.02.19-14.31.04:166][203]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.31.04:255][203]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Wolf/BP_Wolf] ([2] browsable assets)...
+[2026.02.19-14.31.04:255][203]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolf/BP_Wolf]
+[2026.02.19-14.31.04:255][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolf/BP_Wolf" FILE="../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset" SILENT=true
+[2026.02.19-14.31.04:268][203]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.31.04:268][203]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.31.04:270][203]LogSavePackage: Moving output files for package: /Game/Wolf/BP_Wolf
+[2026.02.19-14.31.04:270][203]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/BP_WolfF151F15F4CC32E294DF7B983FF44D01C.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset'
+[2026.02.19-14.31.04:271][203]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Wolf/BP_Wolf.
+[2026.02.19-14.31.04:281][203]LogFileHelpers: InternalPromptForCheckoutAndSave took 114.629 ms (total: 645.801 ms)
+[2026.02.19-14.31.04:338][203]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.31.04:338][203]LogContentValidation: Enabled validators:
+[2026.02.19-14.31.04:338][203]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.31.04:338][203]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.31.04:338][203]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.31.04:338][203]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.31.04:339][203]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.31.04:339][203]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.31.04:339][203]AssetCheck: /Game/Wolf/BP_Wolf Validating asset
+[2026.02.19-14.31.05:844][375]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wolf/BP_Wolf.BP_Wolf
+[2026.02.19-14.31.05:845][375]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.02.19-14.31.05:882][375]LogStreaming: Display: FlushAsyncLoading(415): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.19-14.31.12:374][760]LogSlate: Took 0.001140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.02.19-14.31.12:376][760]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2026.02.19-14.31.12:382][761]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.02.19-14.31.15:604][974]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.02.19-14.31.16:928][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.02.19-14.31.17:425][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.31.17:479][ 64]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Wolf/BP_Wolf] ([2] browsable assets)...
+[2026.02.19-14.31.17:487][ 64]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Wolf/BP_Wolf.BP_Wolf]
+[2026.02.19-14.31.17:487][ 64]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.02.19-14.31.17:501][ 64]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Wolf/BP_Wolf.BP_Wolf_C]
+[2026.02.19-14.31.17:501][ 64]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolf/BP_Wolf]
+[2026.02.19-14.31.17:501][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolf/BP_Wolf" FILE="../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset" SILENT=true
+[2026.02.19-14.31.17:506][ 64]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.31.17:506][ 64]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.31.17:508][ 64]LogSavePackage: Moving output files for package: /Game/Wolf/BP_Wolf
+[2026.02.19-14.31.17:509][ 64]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/BP_Wolf4EE2C2EE40895A41CB9885BEE58041C0.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset'
+[2026.02.19-14.31.17:520][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.326 ms (total: 741.128 ms)
+[2026.02.19-14.31.17:562][ 64]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.31.17:562][ 64]LogContentValidation: Enabled validators:
+[2026.02.19-14.31.17:562][ 64]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.31.17:562][ 64]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.31.17:562][ 64]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.31.17:562][ 64]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.31.17:562][ 64]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.31.17:562][ 64]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.31.17:562][ 64]AssetCheck: /Game/Wolf/BP_Wolf Validating asset
+[2026.02.19-14.31.23:171][449]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: ================================================
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: Total job queries 1,364, among them cache hits 220 (16.13%), DDC hits 1,119 (82.04%), Duplicates 7 (0.51%)
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: Tracking 1,137 distinct input hashes that result in 890 distinct outputs (78.28%)
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: RAM used: 571.45 KiB of 1.60 GiB budget. Usage: 0.03%
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: Shaders Compiled: 18
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: Jobs assigned 18, completed 18 (100%)
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: Average time worker was idle: 1012.48 s
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: Time job spent in pending queue: average 0.29 s, longest 2.16 s
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: Job execution time: average 2.38 s, max 3.56 s
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: Job life time (pending + execution): average 2.67 s, max 3.60
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: Shader code size: average 8.163 KiB, min 2.785 KiB, max 16.207 KiB
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.03 s
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.02.19-14.31.24:017][532]LogShaderCompilers: Display: Jobs were issued in 18 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: Average processing rate: 2.24 jobs/sec
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: Total thread time: 12.324 s
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: Total thread preprocess time: 24.679 s
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: Percentage time preprocessing: 200.25%
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: Effective parallelization: 1.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 1.15 sec, max 1.17 sec, min 1.12 sec)
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 0.77 sec, max 0.92 sec, min 0.63 sec)
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    2 times, average 0.59 sec, max 0.60 sec, min 0.59 sec)
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.53 sec, max 0.53 sec, min 0.53 sec)
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 0.51 sec, max 0.53 sec, min 0.48 sec)
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.95% of total time (compiled    4 times, average 0.77 sec, max 0.92 sec, min 0.63 sec)
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 18.65% of total time (compiled    2 times, average 1.15 sec, max 1.17 sec, min 1.12 sec)
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.43% of total time (compiled    4 times, average 0.51 sec, max 0.53 sec, min 0.48 sec)
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display:                                                 FLumenCardPS - 9.63% of total time (compiled    2 times, average 0.59 sec, max 0.60 sec, min 0.59 sec)
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.93% of total time (compiled    2 times, average 0.49 sec, max 0.50 sec, min 0.47 sec)
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: === Material stats ===
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: Materials Translated:    137
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: Material Total Translate Time: 0.13 s
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: Material Translation Only: 0.05 s (36%)
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.02.19-14.31.24:019][532]LogShaderCompilers: Display: ================================================
+[2026.02.19-14.31.29:657][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.02.19-14.31.35:545][457]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.31.35:662][457]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Wolf/BP_Wolf] ([2] browsable assets)...
+[2026.02.19-14.31.35:688][457]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Wolf/BP_Wolf.BP_Wolf]
+[2026.02.19-14.31.35:688][457]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolf/BP_Wolf]
+[2026.02.19-14.31.35:688][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolf/BP_Wolf" FILE="../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset" SILENT=true
+[2026.02.19-14.31.35:700][457]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.31.35:701][457]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.31.35:709][457]LogSavePackage: Moving output files for package: /Game/Wolf/BP_Wolf
+[2026.02.19-14.31.35:712][457]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/BP_Wolf4DAB8DFF46C64685227DFBA0ACFC68B9.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset'
+[2026.02.19-14.31.35:732][457]LogFileHelpers: InternalPromptForCheckoutAndSave took 187.085 ms (total: 928.213 ms)
+[2026.02.19-14.31.35:786][457]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.31.35:786][457]LogContentValidation: Enabled validators:
+[2026.02.19-14.31.35:786][457]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.31.35:786][457]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.31.35:786][457]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.31.35:786][457]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.31.35:786][457]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.31.35:786][457]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.31.35:786][457]AssetCheck: /Game/Wolf/BP_Wolf Validating asset
+[2026.02.19-14.31.39:322][783]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2026.02.19-14.31.44:638][288]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.31.44:711][288]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Wolf/BP_Wolf] ([2] browsable assets)...
+[2026.02.19-14.31.44:720][288]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Wolf/BP_Wolf.BP_Wolf]
+[2026.02.19-14.31.44:720][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolf/BP_Wolf]
+[2026.02.19-14.31.44:720][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolf/BP_Wolf" FILE="../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset" SILENT=true
+[2026.02.19-14.31.44:724][288]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.31.44:724][288]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.31.44:725][288]LogSavePackage: Moving output files for package: /Game/Wolf/BP_Wolf
+[2026.02.19-14.31.44:725][288]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/BP_WolfCE23BA094627FBEAFF87449D09CAF48A.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset'
+[2026.02.19-14.31.44:736][288]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.303 ms (total: 1.02 sec)
+[2026.02.19-14.31.44:807][288]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.31.44:807][288]LogContentValidation: Enabled validators:
+[2026.02.19-14.31.44:807][288]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.31.44:807][288]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.31.44:807][288]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.31.44:807][288]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.31.44:807][288]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.31.44:807][288]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.31.44:807][288]AssetCheck: /Game/Wolf/BP_Wolf Validating asset
+[2026.02.19-14.31.48:129][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.02.19-14.31.48:579][587]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.31.48:703][587]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Wolf/BP_Wolf] ([2] browsable assets)...
+[2026.02.19-14.31.48:710][587]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Wolf/BP_Wolf.BP_Wolf]
+[2026.02.19-14.31.48:710][587]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolf/BP_Wolf]
+[2026.02.19-14.31.48:710][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolf/BP_Wolf" FILE="../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset" SILENT=true
+[2026.02.19-14.31.48:713][587]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.31.48:713][587]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.31.48:715][587]LogSavePackage: Moving output files for package: /Game/Wolf/BP_Wolf
+[2026.02.19-14.31.48:716][587]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/BP_WolfB61004AB4E245320A0BEF28E0D5A3A09.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset'
+[2026.02.19-14.31.48:725][587]LogFileHelpers: InternalPromptForCheckoutAndSave took 145.410 ms (total: 1.17 sec)
+[2026.02.19-14.31.48:776][587]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.31.48:776][587]LogContentValidation: Enabled validators:
+[2026.02.19-14.31.48:776][587]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.31.48:776][587]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.31.48:776][587]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.31.48:776][587]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.31.48:776][587]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.31.48:776][587]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.31.48:776][587]AssetCheck: /Game/Wolf/BP_Wolf Validating asset
+[2026.02.19-14.31.53:542][948]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Wolf/BP_Wolf.BP_Wolf_C
+[2026.02.19-14.31.53:542][948]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Wolf/BP_Wolf.BP_Wolf_C
+[2026.02.19-14.31.53:550][948]LogActorFactory: Actor Factory spawned Blueprint /Game/Wolf/BP_Wolf.BP_Wolf as actor: BP_Wolf_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Wolf_C_0
+[2026.02.19-14.31.53:553][948]LogActorFactory: Actor Factory spawned Blueprint /Game/Wolf/BP_Wolf.BP_Wolf as actor: BP_Wolf_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Wolf_C_0
+[2026.02.19-14.31.54:130][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.02.19-14.31.54:158][996]LogEditorActor: Deleted 0 Actors (0.049 secs)
+[2026.02.19-14.31.54:164][996]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Wolf/BP_Wolf.BP_Wolf_C
+[2026.02.19-14.31.54:164][996]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Wolf/BP_Wolf.BP_Wolf_C
+[2026.02.19-14.31.54:169][996]LogActorFactory: Actor Factory spawned Blueprint /Game/Wolf/BP_Wolf.BP_Wolf as actor: BP_Wolf_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Wolf_C_UAID_A4BB6DC2F62695C002_1753886471
+[2026.02.19-14.31.54:170][996]LogActorFactory: Actor Factory spawned Blueprint /Game/Wolf/BP_Wolf.BP_Wolf as actor: BP_Wolf_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Wolf_C_UAID_A4BB6DC2F62695C002_1753886471
+[2026.02.19-14.31.56:103][139]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.31.56:222][139]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/89/J25QIQCA1EPMV130W45QX9
+[2026.02.19-14.31.56:222][139]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/J25QIQCA1EPMV130W45QX9AB05C6004B237599BC43F29C98BA7543.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/89/J25QIQCA1EPMV130W45QX9.uasset'
+[2026.02.19-14.31.56:240][139]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.052 ms (total: 1.30 sec)
+[2026.02.19-14.31.56:296][139]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.31.56:296][139]LogContentValidation: Enabled validators:
+[2026.02.19-14.31.56:296][139]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.31.56:296][139]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.31.56:296][139]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.31.56:296][139]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.31.56:296][139]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.31.56:296][139]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.31.56:296][139]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2026.02.19-14.33.28:300][278]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5480.893066
+[2026.02.19-14.33.28:468][297]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-14.33.28:468][298]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5481.050293, Update Interval: 325.437775
+[2026.02.19-14.34.15:094][155]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.34.15:176][155]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Wolf/BP_Wolf] ([2] browsable assets)...
+[2026.02.19-14.34.15:192][155]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Wolf/BP_Wolf.BP_Wolf]
+[2026.02.19-14.34.15:192][155]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolf/BP_Wolf]
+[2026.02.19-14.34.15:192][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolf/BP_Wolf" FILE="../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset" SILENT=true
+[2026.02.19-14.34.15:196][155]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.34.15:196][155]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.34.15:198][155]LogSavePackage: Moving output files for package: /Game/Wolf/BP_Wolf
+[2026.02.19-14.34.15:201][155]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/BP_Wolf83214BC047C7797C4876C19269B8F9D2.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset'
+[2026.02.19-14.34.15:212][155]LogFileHelpers: InternalPromptForCheckoutAndSave took 117.692 ms (total: 1.42 sec)
+[2026.02.19-14.34.15:259][155]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.34.15:259][155]LogContentValidation: Enabled validators:
+[2026.02.19-14.34.15:259][155]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.34.15:259][155]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.34.15:259][155]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.34.15:259][155]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.34.15:259][155]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.34.15:259][155]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.34.15:259][155]AssetCheck: /Game/Wolf/BP_Wolf Validating asset
+[2026.02.19-14.34.16:415][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2026.02.19-14.34.17:171][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.34.17:287][262]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Wolf/BP_Wolf] ([2] browsable assets)...
+[2026.02.19-14.34.17:314][262]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Wolf/BP_Wolf.BP_Wolf]
+[2026.02.19-14.34.17:314][262]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolf/BP_Wolf]
+[2026.02.19-14.34.17:314][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolf/BP_Wolf" FILE="../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset" SILENT=true
+[2026.02.19-14.34.17:326][262]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.34.17:327][262]LogWorldPartition: Can't find class descriptor '/Game/Wolf/BP_Wolf.BP_Wolf_C' for saving '/Game/Wolf/BP_Wolf.BP_Wolf_C'
+[2026.02.19-14.34.17:333][262]LogSavePackage: Moving output files for package: /Game/Wolf/BP_Wolf
+[2026.02.19-14.34.17:337][262]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/BP_Wolf4A3445B24554B6B460A53DA88757914B.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BP_Wolf.uasset'
+[2026.02.19-14.34.17:372][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 201.483 ms (total: 1.62 sec)
+[2026.02.19-14.34.17:427][262]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.34.17:427][262]LogContentValidation: Enabled validators:
+[2026.02.19-14.34.17:427][262]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.34.17:427][262]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.34.17:427][262]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.34.17:427][262]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.34.17:427][262]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.34.17:427][262]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.34.17:427][262]AssetCheck: /Game/Wolf/BP_Wolf Validating asset
+[2026.02.19-14.34.17:750][281]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.34.17:843][281]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/89/J25QIQCA1EPMV130W45QX9
+[2026.02.19-14.34.17:844][281]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/J25QIQCA1EPMV130W45QX96C9029F44AC46AA3101CEC87A1BBCFBE.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/89/J25QIQCA1EPMV130W45QX9.uasset'
+[2026.02.19-14.34.17:857][281]LogFileHelpers: InternalPromptForCheckoutAndSave took 107.013 ms (total: 1.73 sec)
+[2026.02.19-14.34.17:910][281]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.34.17:910][281]LogContentValidation: Enabled validators:
+[2026.02.19-14.34.17:910][281]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.34.17:910][281]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.34.17:910][281]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.34.17:910][281]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.34.17:910][281]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.34.17:910][281]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.34.17:910][281]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2026.02.19-14.34.35:453][798]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2026.02.19-14.34.38:274][994]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2026.02.19-14.34.45:305][282]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.19-14.34.45:315][282]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.02.19-14.34.45:315][282]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.02.19-14.34.45:321][282]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 6.629 ms
+[2026.02.19-14.34.45:337][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.19-14.34.45:349][282]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.02.19-14.34.45:349][282]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2026.02.19-14.34.45:351][282]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.02.19-14.34.45:359][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008190s)
+[2026.02.19-14.34.45:359][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008247s)
+[2026.02.19-14.34.45:380][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.02.19-14.34.45:382][282]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.02.19-14.34.45:385][282]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.19-14.34.45:385][282]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.19-14.34.45:385][282]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.19-14.34.45:385][282]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.19-14.34.45:387][282]LogWorldPartition: Display: WorldPartition initialize took 2.806 ms (total: 303.290 ms)
+[2026.02.19-14.34.45:387][282]LogPlayLevel: PIE: World Init took: (0.005468s)
+[2026.02.19-14.34.45:388][282]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.02.19-14.34.45:388][282]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.19-14.34.45:388][282]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.19-14.34.45:388][282]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.19-14.34.45:388][282]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.19-14.34.45:388][282]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.19-14.34.45:388][282]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.19-14.34.45:388][282]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.19-14.34.45:388][282]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.19-14.34.45:388][282]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.19-14.34.45:388][282]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.19-14.34.45:388][282]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.19-14.34.45:391][282]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.19-14.34.45:454][282]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.19-14.34.45:454][282]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.19-14.34.45:454][282]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.19-14.34.45:455][282]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.19-14.34.45:455][282]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.02.19-14.34.45:455][282]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.02.19-14.34.45:458][282]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.02.19-14.34.45:458][282]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.02.19-14.34.45:458][282]LogInit: FAudioDevice initialized with ID 2.
+[2026.02.19-14.34.45:458][282]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonMap'.
+[2026.02.19-14.34.45:458][282]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.02.19-14.34.45:468][282]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.19-14.34.45:473][282]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2026.02.19-14.34.45
+[2026.02.19-14.34.45:487][282]LogWorld: Bringing up level for play took: 0.018131
+[2026.02.19-14.34.45:490][282]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2026.02.19-14.34.45:901][282]PIE: Server logged in
+[2026.02.19-14.34.45:902][282]PIE: Play in editor total start time 0.59 seconds.
+[2026.02.19-14.34.55:677][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.19-14.34.55:677][156]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.02.19-14.34.55:679][156]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.19-14.34.55:681][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.19-14.34.55:681][156]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.02.19-14.34.55:688][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.19-14.34.55:692][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.19-14.34.55:710][156]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.19-14.34.55:712][156]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.02.19-14.34.55:713][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2026.02.19-14.34.55:718][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2026.02.19-14.34.55:725][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.19-14.34.55:735][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.02.19-14.34.55:819][157]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2026.02.19-14.39.52:726][399]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5865.286621
+[2026.02.19-14.39.53:724][402]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-14.39.53:725][402]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5865.953125, Update Interval: 344.906158
+[2026.02.19-14.41.32:224][941]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2026.02.19-14.41.32:225][941]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2026.02.19-14.41.32:227][941]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_0
+[2026.02.19-14.41.32:237][941]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_0
+[2026.02.19-14.41.32:885][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2026.02.19-14.41.32:886][  5]LogEditorActor: Deleted 0 Actors (0.028 secs)
+[2026.02.19-14.41.32:891][  5]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2026.02.19-14.41.32:891][  5]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2026.02.19-14.41.32:894][  5]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_A4BB6DC2F62696C002_1258870648
+[2026.02.19-14.41.32:895][  5]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_A4BB6DC2F62696C002_1258870648
+[2026.02.19-14.41.42:810][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.41.42:849][ 36]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/3L/DYO7OAW7PC59OCISKYUD5L
+[2026.02.19-14.41.42:849][ 36]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/DYO7OAW7PC59OCISKYUD5LE4B942A643F9886F7446FFB3500BBC88.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/3L/DYO7OAW7PC59OCISKYUD5L.uasset'
+[2026.02.19-14.41.42:854][ 36]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/L4/5LDYXS0R1BDRM1JGJQYLTH
+[2026.02.19-14.41.42:854][ 36]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/5LDYXS0R1BDRM1JGJQYLTHB98A00534E742E87663A67B76DAD4384.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/L4/5LDYXS0R1BDRM1JGJQYLTH.uasset'
+[2026.02.19-14.41.42:866][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave took 55.591 ms (total: 1.78 sec)
+[2026.02.19-14.41.42:944][ 36]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.19-14.41.42:944][ 36]LogContentValidation: Enabled validators:
+[2026.02.19-14.41.42:944][ 36]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.41.42:944][ 36]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.41.42:944][ 36]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.41.42:944][ 36]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.41.42:944][ 36]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.41.42:944][ 36]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.41.42:944][ 36]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2026.02.19-14.41.42:954][ 36]LogNavigation: Warning: ConstructTiledNavMesh: Failed to create navmesh of size 0.
+[2026.02.19-14.42.11:267][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.02.19-14.42.11:269][274]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.026
+[2026.02.19-14.42.11:273][274]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/V2/U6SMAE3YCXVRPS345TSE9R_Auto1
+[2026.02.19-14.42.11:273][274]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/U6SMAE3YCXVRPS345TSE9R_Auto1CD39A87B479A8C53A761E18857236000.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/V2/U6SMAE3YCXVRPS345TSE9R_Auto1.uasset'
+[2026.02.19-14.42.11:275][274]LogFileHelpers: Auto-saving content packages took 0.006
+[2026.02.19-14.43.31:532][761]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-14.43.31:629][761]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Wolf/BBD_Wolf] ([1] browsable assets)...
+[2026.02.19-14.43.31:629][761]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolf/BBD_Wolf]
+[2026.02.19-14.43.31:629][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolf/BBD_Wolf" FILE="../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BBD_Wolf.uasset" SILENT=true
+[2026.02.19-14.43.31:631][761]LogSavePackage: Moving output files for package: /Game/Wolf/BBD_Wolf
+[2026.02.19-14.43.31:632][761]LogSavePackage: Moving '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Saved/BBD_WolfDDA14462418F45C35ECAD8B6B8C4F692.tmp' to '../../../../../../Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/Content/Wolf/BBD_Wolf.uasset'
+[2026.02.19-14.43.31:640][761]LogFileHelpers: InternalPromptForCheckoutAndSave took 107.317 ms (total: 1.89 sec)
+[2026.02.19-14.43.31:691][761]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-14.43.31:691][761]LogContentValidation: Enabled validators:
+[2026.02.19-14.43.31:691][761]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-14.43.31:691][761]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-14.43.31:691][761]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-14.43.31:691][761]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-14.43.31:691][761]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-14.43.31:691][761]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-14.43.31:691][761]AssetCheck: /Game/Wolf/BBD_Wolf Validating asset
+[2026.02.19-14.44.51:016][916]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/TheGreyUni.uproject" -game -rocket -progress
+[2026.02.19-14.44.51:327][916]Using bundled DotNet SDK version: 8.0.300
+[2026.02.19-14.44.51:327][916]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/TheGreyUni.uproject" -game -rocket -progress
+[2026.02.19-14.44.51:930][916]Log file: C:\Users\bmw129\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2026.02.19-14.44.52:231][916]
+[2026.02.19-14.44.52:231][916]Some Platforms were skipped due to invalid SDK setup: IOS, Android.
+[2026.02.19-14.44.52:231][916]See the log file for detailed information
+[2026.02.19-14.44.52:231][916]
+[2026.02.19-14.44.52:231][916]
+[2026.02.19-14.44.52:231][916]Generating VisualStudio project files:
+[2026.02.19-14.44.52:231][916]Discovering modules, targets and source code for project...
+[2026.02.19-14.44.53:238][916]Available x64 toolchains (1):
+[2026.02.19-14.44.53:238][916] * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207
+[2026.02.19-14.44.53:238][916]    (Family=14.44.35207, FamilyRank=1, Version=14.44.35207, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64)
+[2026.02.19-14.44.53:238][916]Unavailable x64 toolchains (3):
+[2026.02.19-14.44.53:238][916] * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933
+[2026.02.19-14.44.53:238][916]    (Family=14.34.31933, FamilyRank=1, Version=14.34.31948, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error="UnrealBuildTool requires at minimum the MSVC 14.38.33130 toolchain. Please install a later toolchain such as 14.38.33130 from the Visual Studio installer.")
+[2026.02.19-14.44.53:238][916] * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133
+[2026.02.19-14.44.53:238][916]    (Family=14.29.30133, FamilyRank=1, Version=14.29.30159, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error="UnrealBuildTool requires at minimum the MSVC 14.38.33130 toolchain. Please install a later toolchain such as 14.38.33130 from the Visual Studio installer.")
+[2026.02.19-14.44.53:238][916] * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.16.27023
+[2026.02.19-14.44.53:238][916]    (Family=14.16.27023, FamilyRank=1, Version=14.16.27054, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error="UnrealBuildTool requires at minimum the MSVC 14.38.33130 toolchain. Please install a later toolchain such as 14.38.33130 from the Visual Studio installer.")
+[2026.02.19-14.44.53:238][916]Visual Studio 2022 compiler version 14.44.35207 is not a preferred version. Please use the latest preferred version 14.38.33130
+[2026.02.19-14.44.56:861][916]Binding IntelliSense data...
+[2026.02.19-14.45.05:816][916]Binding IntelliSense data... 100%
+[2026.02.19-14.45.05:816][916]Writing project files...
+[2026.02.19-14.45.08:432][916]Writing project files... 100%
+[2026.02.19-14.45.08:433][916]
+[2026.02.19-14.45.08:433][916]Generating QueryTargets data for editor...
+[2026.02.19-14.45.08:433][916]Total execution time: 16.99 seconds
+[2026.02.19-14.45.08:865][916]Candidate modules for hot reload:
+[2026.02.19-14.45.08:865][916]  TheGreyUni
+[2026.02.19-14.45.08:875][916]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=TheGreyUni,6119 TheGreyUniEditor Win64 Development -Project="C:/Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/TheGreyUni.uproject" "C:/Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/TheGreyUni.uproject"  -IgnoreJunk]
+[2026.02.19-14.45.23:889][916]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2026.02.19-14.45.23:889][916]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=TheGreyUni,6119 TheGreyUniEditor Win64 Development -Project="C:/Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/TheGreyUni.uproject" "C:/Users/bmw129/AppData/Local/Development/TheGreyUni/TheGreyUni/TheGreyUni.uproject"  -IgnoreJunk
+[2026.02.19-14.45.23:889][916]CompilerResultsLog: Log file: C:\Users\bmw129\AppData\Local\UnrealBuildTool\Log.txt
+[2026.02.19-14.45.23:889][916]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\bmw129\AppData\Local\Development\TheGreyUni).
+[2026.02.19-14.45.23:889][916]CompilerResultsLog: Creating makefile for TheGreyUniEditor (command line arguments changed)
+[2026.02.19-14.45.23:889][916]CompilerResultsLog: Available x64 toolchains (1):
+[2026.02.19-14.45.23:889][916]CompilerResultsLog:  * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207
+[2026.02.19-14.45.23:889][916]CompilerResultsLog:     (Family=14.44.35207, FamilyRank=1, Version=14.44.35207, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64)
+[2026.02.19-14.45.23:889][916]CompilerResultsLog: Unavailable x64 toolchains (3):
+[2026.02.19-14.45.23:889][916]CompilerResultsLog:  * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933
+[2026.02.19-14.45.23:889][916]CompilerResultsLog:     (Family=14.34.31933, FamilyRank=1, Version=14.34.31948, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error="UnrealBuildTool requires at minimum the MSVC 14.38.33130 toolchain. Please install a later toolchain such as 14.38.33130 from the Visual Studio installer.")
+[2026.02.19-14.45.23:889][916]CompilerResultsLog:  * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133
+[2026.02.19-14.45.23:889][916]CompilerResultsLog:     (Family=14.29.30133, FamilyRank=1, Version=14.29.30159, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error="UnrealBuildTool requires at minimum the MSVC 14.38.33130 toolchain. Please install a later toolchain such as 14.38.33130 from the Visual Studio installer.")
+[2026.02.19-14.45.23:889][916]CompilerResultsLog:  * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.16.27023
+[2026.02.19-14.45.23:890][916]CompilerResultsLog:     (Family=14.16.27023, FamilyRank=1, Version=14.16.27054, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error="UnrealBuildTool requires at minimum the MSVC 14.38.33130 toolchain. Please install a later toolchain such as 14.38.33130 from the Visual Studio installer.")
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: Visual Studio 2022 compiler version 14.44.35207 is not a preferred version. Please use the latest preferred version 14.38.33130
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: Parsing headers for TheGreyUniEditor
+[2026.02.19-14.45.23:890][916]CompilerResultsLog:   Running Internal UnrealHeaderTool C:\Users\bmw129\AppData\Local\Development\TheGreyUni\TheGreyUni\TheGreyUni.uproject C:\Users\bmw129\AppData\Local\Development\TheGreyUni\TheGreyUni\Intermediate\Build\Win64\TheGreyUniEditor\Development\TheGreyUniEditor.uhtmanifest -WarningsAsErrors -installed
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: Total of 4 written
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: Reflection code generated for TheGreyUniEditor in 3.3801082 seconds
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: Error: C:\Users\bmw129\AppData\Local\Development\TheGreyUni\TheGreyUni\Source\TheGreyUni\WolfAiController.cpp(1) : error: Expected WolfAiController.h to be first header included.
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: Building TheGreyUniEditor...
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: Using Visual Studio 2022 14.44.35207 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: Warning: Visual Studio 2022 compiler is not a preferred version
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: [Adaptive Build] Excluded from TheGreyUni unity file: PatrolPath.cpp, Wolf.cpp, WolfAiController.cpp
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2026.02.19-14.45.23:890][916]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2026.02.19-14.45.23:890][916]CompilerResultsLog:   Requested 1.5 GB memory per action, 11.13 GB available: limiting max parallel actions to 7
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: Using XGE executor to run 9 action(s)
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: Distributing 9 actions to XGE
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: UnrealBuildTool Compile
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: 
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: License not activated:
+[2026.02.19-14.45.23:890][916]CompilerResultsLog:     License is not activated. Please activate the license in the coordinator.
+[2026.02.19-14.45.23:890][916]CompilerResultsLog:     This build will run in standalone mode.
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: 
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: -------------------------------------------------------------------------------
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: 
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: Build ID: {7FDCE5AC-73B6-4E14-B3E2-5B69D1481479}
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: 
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: [1/9] Compile [x64] TheGreyUni.init.gen.cpp (0:00.40 at +0:00)
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: [2/9] Compile [x64] PatrolPath.cpp (0:00.51 at +0:00)
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: [3/9] Compile [x64] PatrolPath.gen.cpp (0:00.54 at +0:00)
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: [4/9] Compile [x64] Wolf.cpp (0:00.85 at +0:00)
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: [5/9] Compile [x64] Wolf.gen.cpp (0:00.95 at +0:00)
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: [6/9] Compile [x64] WolfAiController.cpp (0:02.64 at +0:00)
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: [7/9] Link [x64] UnrealEditor-TheGreyUni-6119.lib (0:00.26 at +0:02)
+[2026.02.19-14.45.23:890][916]CompilerResultsLog:    Creating library C:\Users\bmw129\AppData\Local\Development\TheGreyUni\TheGreyUni\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheGreyUni\UnrealEditor-TheGreyUni-6119.lib and object C:\Users\bmw129\AppData\Local\Development\TheGreyUni\TheGreyUni\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheGreyUni\UnrealEditor-TheGreyUni-6119.exp
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: [8/9] Link [x64] UnrealEditor-TheGreyUni-6119.dll (0:00.92 at +0:02)
+[2026.02.19-14.45.23:890][916]CompilerResultsLog:    Creating object C:\Users\bmw129\AppData\Local\Development\TheGreyUni\TheGreyUni\Binaries\Win64\UnrealEditor-TheGreyUni-6119.exp
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: [9/9] WriteMetadata TheGreyUniEditor.target (0:00.57 at +0:03)
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: ---------------------- Done ----------------------
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: 
+[2026.02.19-14.45.23:890][916]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: 
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: 1 build system warning(s):
+[2026.02.19-14.45.23:890][916]CompilerResultsLog:    - License not activated
+[2026.02.19-14.45.23:890][916]CompilerResultsLog: 
+[2026.02.19-14.45.23:891][916]CompilerResultsLog: Total time in XGE executor: 6.92 seconds
+[2026.02.19-14.45.23:891][916]CompilerResultsLog: Total execution time: 14.44 seconds
+[2026.02.19-14.45.23:891][916]LogMainFrame: MainFrame: Module compiling took 15.042 seconds
+[2026.02.19-14.45.23:915][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.02.19-14.45.24:420][916]LogClass: UPackage /Script/TheGreyUni Reload.
+[2026.02.19-14.45.24:423][916]LogClass: UClass Wolf Reload.
+[2026.02.19-14.45.24:425][916]LogClass: Could not find existing class PatrolPath in package /Script/TheGreyUni for reload, assuming new or modified class
+[2026.02.19-14.45.24:434][916]LogClass: Could not find existing class Wolf in package /Script/TheGreyUni for reload, assuming new or modified class
+[2026.02.19-14.45.24:459][916]Re-instancing Wolf after reload.
+[2026.02.19-14.45.24:744][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.02.19-14.45.24:762][916]Display: HotReload took 15.9s.
+[2026.02.19-14.45.24:762][916]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 1 class changed, 8 classes unchanged, 5 functions remapped
+[2026.02.19-14.45.24:763][916]Warning: HotReload operation took 15.9s.
+[2026.02.19-14.45.24:908][916]LogSlate: Window 'Add C++ Class' being destroyed
+[2026.02.19-14.45.25:506][916]LogHotReload: New module detected: UnrealEditor-TheGreyUni-6119.dll
+[2026.02.19-14.45.25:579][916]LogHotReload: Starting Hot-Reload from IDE
+[2026.02.19-14.45.25:725][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2026.02.19-14.45.25:798][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2026.02.19-14.45.25:841][916]Display: HotReload took  0.3s.
+[2026.02.19-14.45.25:841][916]Display: Reload/Re-instancing Complete: No object changes detected
+[2026.02.19-14.46.21:728][769]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6254.264160
+[2026.02.19-14.46.22:729][772]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-14.46.22:729][772]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6254.931641, Update Interval: 334.450500
+[2026.02.19-14.47.13:407][924]LogHttp: Warning: 00000B3F44170000: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 0 (Found bundle for host: 0xb3ec8840ed0 [serially])
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 2 (We are completely uploaded and fine)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 3 (TLSv1.3 (IN), TLS alert, close notify (256):)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 6 (Closing connection)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 7 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B723D18ED-4149-4015-8F3F-06BD739CE120%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2455ba564c086b61e5b063970a376f40%7C%7C18251be4-bc0d-4b6e-97dd-c32793fd84e7&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 9 (  Trying 44.198.213.219:443...)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (44.198.213.219) port 443)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 12 (SSL reusing session ID)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 19 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2026.02.19-14.47.13:408][924]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 20 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2026.02.19-14.47.13:408][925]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 21 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2026.02.19-14.47.13:408][925]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 22 (ALPN: server accepted http/1.1)
+[2026.02.19-14.47.13:408][925]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 23 (Server certificate:)
+[2026.02.19-14.47.13:408][925]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 24 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2026.02.19-14.47.13:408][925]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 25 ( start date: Jan  3 00:00:00 2026 GMT)
+[2026.02.19-14.47.13:408][925]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 26 ( expire date: Feb  1 23:59:59 2027 GMT)
+[2026.02.19-14.47.13:408][925]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 27 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2026.02.19-14.47.13:408][925]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 28 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M04)
+[2026.02.19-14.47.13:408][925]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 29 ( SSL certificate verify ok.)
+[2026.02.19-14.47.13:408][925]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 30 (using HTTP/1.1)
+[2026.02.19-14.47.13:408][925]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 31 (necessary data rewind wasn't possible)
+[2026.02.19-14.47.13:408][925]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 32 (Closing connection)
+[2026.02.19-14.47.13:408][925]LogHttp: Warning: 00000B3F44170000: libcurl info message cache 33 (TLSv1.3 (OUT), TLS alert, close notify (256):)

@@ -39,6 +39,12 @@
     <ClCompile Include="..\..\Source\TheGreyUni\BaseCharacter.h">
       <Filter>Source\TheGreyUni</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\PatrolPath.cpp">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\PatrolPath.h">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TheGreyUni\PlayerCharacter.cpp">
       <Filter>Source\TheGreyUni</Filter>
     </ClCompile>

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\bmw129\\appdata\\local\\development\\thegreyuni\\thegreyuni\\intermediate\\build\\win64\\unrealeditor\\inc\\thegreyuni\\uht\\patrolpath.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\bmw129\\appdata\\local\\development\\thegreyuni\\thegreyuni\\intermediate\\build\\win64\\x64\\thegreyunieditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\bmw129\\appdata\\local\\development\\thegreyuni\\thegreyuni\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\thegreyuni\\definitions.thegreyuni.h",
+            "c:\\users\\bmw129\\appdata\\local\\development\\thegreyuni\\thegreyuni\\source\\thegreyuni\\patrolpath.h",
+            "c:\\users\\bmw129\\appdata\\local\\development\\thegreyuni\\thegreyuni\\intermediate\\build\\win64\\unrealeditor\\inc\\thegreyuni\\uht\\patrolpath.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
