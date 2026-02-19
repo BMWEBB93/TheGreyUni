@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TheGreyUni.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheGreyUni.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TheGreyUniEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TheGreyUni">
+      <UniqueIdentifier>{B7057B6D-EB39-30F0-A749-6C7F5C2D82D1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TheGreyUni\BaseCharacter.cpp">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\BaseCharacter.h">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\PlayerCharacter.cpp">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\PlayerCharacter.h">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <None Include="..\..\Source\TheGreyUni\TheGreyUni.Build.cs">
+      <Filter>Source\TheGreyUni</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TheGreyUni\TheGreyUni.cpp">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\TheGreyUni.h">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\TheGreyUniCharacter.cpp">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\TheGreyUniCharacter.h">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\TheGreyUniGameMode.cpp">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\TheGreyUniGameMode.h">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\TheGreyUniPickUpComponent.cpp">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\TheGreyUniPickUpComponent.h">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\TheGreyUniProjectile.cpp">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\TheGreyUniProjectile.h">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\TheGreyUniWeaponComponent.cpp">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\TheGreyUniWeaponComponent.h">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\Wolf.cpp">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\Wolf.h">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\WolfAiController.cpp">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGreyUni\WolfAiController.h">
+      <Filter>Source\TheGreyUni</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
