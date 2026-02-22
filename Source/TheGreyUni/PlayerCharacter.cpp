@@ -9,12 +9,36 @@ APlayerCharacter::APlayerCharacter()
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+    // Camera boom
+    CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
+    CameraBoom->SetupAttachment(GetMesh(), TEXT("HeadSocket"));
+    CameraBoom->TargetArmLength = 40.f;
+    CameraBoom->bUsePawnControlRotation = false;
+    CameraBoom->SetRelativeLocation(FVector::ZeroVector);
+    CameraBoom->SetRelativeRotation(FRotator(0.f, -90.f, 0.f));
+
+
+
+    // Camera
+    FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
+    FollowCamera->SetupAttachment(CameraBoom);
+    FollowCamera->bUsePawnControlRotation = false;
+    FollowCamera->SetRelativeRotation(FRotator(0.f, 0.f, 0.f));
 }
 
 // Called when the game starts or when spawned
 void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+    // setup input mapping context
+    if (APlayerController* playerController = Cast<APlayerController>(Controller))
+    {
+        if (UEnhancedInputLocalPlayerSubsystem* subsystem = ULocalPlayer::GetSubsystem< UEnhancedInputLocalPlayerSubsystem>(playerController->GetLocalPlayer()))
+        {
+            subsystem->AddMappingContext(DefaultMappingContext, 0);
+        }
+    }
 
 }
 
@@ -23,6 +47,14 @@ void APlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+    // get movement direction for animation
+    FVector Velocity = GetVelocity();
+    FVector Forward = GetActorForwardVector();
+
+    float ForwardDot = FVector::DotProduct(Forward, Velocity);
+    float RightDot = FVector::DotProduct(GetActorRightVector(), Velocity);
+
+    movementDirection = FMath::Atan2(RightDot, ForwardDot) * (180.f / PI);
 }
 
 // Called to bind functionality to input
