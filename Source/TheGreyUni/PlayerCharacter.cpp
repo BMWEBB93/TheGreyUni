@@ -12,7 +12,7 @@ APlayerCharacter::APlayerCharacter()
     // Camera boom
     CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
     CameraBoom->SetupAttachment(GetMesh(), TEXT("HeadSocket"));
-    CameraBoom->TargetArmLength = 10.f;
+    CameraBoom->TargetArmLength = 15.f;
     CameraBoom->bUsePawnControlRotation = false;
     CameraBoom->SetRelativeLocation(FVector::ZeroVector);
     CameraBoom->SetRelativeRotation(FRotator(0.f, -90.f, 90.f));
