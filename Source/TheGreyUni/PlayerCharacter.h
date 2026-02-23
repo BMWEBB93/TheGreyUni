@@ -44,6 +44,8 @@ protected:
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
     UInputAction* LookAction;
 
+    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+    UInputAction* SprintAction;
 
     // Animation variables
     UPROPERTY(BlueprintReadOnly, Category = "Animation")
@@ -73,5 +75,7 @@ public:
     // Input Actions
     void Move(const FInputActionValue& Value);
     void Look(const FInputActionValue& Value);
+    void Sprint(const FInputActionValue& Value);
+
 
 };

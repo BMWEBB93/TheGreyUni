@@ -12,7 +12,7 @@ APlayerCharacter::APlayerCharacter()
     // Camera boom
     CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
     CameraBoom->SetupAttachment(GetMesh(), TEXT("HeadSocket"));
-    CameraBoom->TargetArmLength = 15.f;
+    CameraBoom->TargetArmLength = 10.f;
     CameraBoom->bUsePawnControlRotation = false;
     CameraBoom->SetRelativeLocation(FVector::ZeroVector);
     CameraBoom->SetRelativeRotation(FRotator(0.f, -90.f, 90.f));
@@ -73,6 +73,7 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
     {
         enhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &APlayerCharacter::Move);
         enhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &APlayerCharacter::Look);
+        enhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Triggered, this, &APlayerCharacter::Sprint);
     }
 }
 
@@ -85,6 +86,7 @@ void APlayerCharacter::Move(const FInputActionValue& Value)
 
     AddMovementInput(FRotationMatrix(YawRot).GetUnitAxis(EAxis::X), MoveAxis.Y);
     AddMovementInput(FRotationMatrix(YawRot).GetUnitAxis(EAxis::Y), MoveAxis.X);
+
 }
 
 void APlayerCharacter::Look(const FInputActionValue& Value)
@@ -98,5 +100,11 @@ void APlayerCharacter::Look(const FInputActionValue& Value)
     // lock between 60 and -60
     if (lookPitch > 60) lookPitch = 60;
     if (lookPitch < -60) lookPitch = -60;
+
+}
+
+void APlayerCharacter::Sprint(const FInputActionValue& Value)
+{
+    bool bIsPressed = Value.Get<bool>();
 
 }
