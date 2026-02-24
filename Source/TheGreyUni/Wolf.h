@@ -16,9 +16,13 @@ class THEGREYUNI_API AWolf : public ABaseCharacter
 	
 
 public:
+
+	AWolf();
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	class UBehaviorTree* TreeAsset;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	class APatrolPath* PatrolPath;
+
 };

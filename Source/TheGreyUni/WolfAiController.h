@@ -17,6 +17,28 @@ class THEGREYUNI_API AWolfAiController : public AAIController
 public:
 	AWolfAiController();
 
+	virtual void BeginPlay() override;
+	virtual void OnPossess(APawn* MyPawn) override;
+	virtual void Tick(float DeltaSeconds) override;
+	virtual FRotator GetControlRotation() const override;
+	UFUNCTION()
+	void OnPawnDetected(const TArray<AActor*>& DetectedPawns);
+
+	// AI perception variables
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	float AISightRadius = 500.f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	float AISightAge = 5.f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	float AILoseSightRadius = AISightRadius + 50.f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	float AIFieldOfView = 90.f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	class UAISenseConfig_Sight* SightConfig;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	float DistanceToPlayer = 0.0f;
+
+
 	UPROPERTY(transient)
 	class UBehaviorTreeComponent* BTC;
 	UPROPERTY(transient)
@@ -24,6 +46,5 @@ public:
 	uint16 EnemyKeyID; //This variable is not used today, but a usual practice
 
 protected:
-	virtual void OnPossess(APawn* InPawn) override;
 
 };

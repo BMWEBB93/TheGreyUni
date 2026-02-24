@@ -1,10 +1,12 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "PatrolPath.h"
+
+
 #include "Components/BillboardComponent.h"
 #include "Components/ArrowComponent.h"
 #include "Components/SplineComponent.h"
 
-#include "PatrolPath.h"
 
 // Sets default values
 APatrolPath::APatrolPath()
