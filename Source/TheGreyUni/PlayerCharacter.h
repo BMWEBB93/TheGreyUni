@@ -9,6 +9,10 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/Controller.h"
 
+#include "GameFramework/PlayerController.h"
+#include "Camera/PlayerCameraManager.h"
+#include "GameFramework/CharacterMovementComponent.h"
+
 #include "InputAction.h"
 #include "InputActionValue.h"
 #include "EnhancedInputSubsystems.h"
@@ -54,16 +58,23 @@ protected:
     UPROPERTY(BlueprintReadOnly, Category = "Animation")
     float movementDirection;
 
+    // Movement variables
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+    float WalkSpeed = 300.f;
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+    float RunSpeed = 800.f;
 
 
     // Camera boom (spring arm)
-    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera")
     class USpringArmComponent* CameraBoom;
 
     // Follow camera
-    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera")
     class UCameraComponent* FollowCamera;
 
+    
 
 public:
 	// Called every frame
@@ -75,7 +86,9 @@ public:
     // Input Actions
     void Move(const FInputActionValue& Value);
     void Look(const FInputActionValue& Value);
-    void Sprint(const FInputActionValue& Value);
+    void StartSprint(const FInputActionValue& Value);
+    void StopSprint(const FInputActionValue& Value);
+
 
 
 };
