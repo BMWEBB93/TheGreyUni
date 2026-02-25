@@ -121,7 +121,10 @@ void APlayerCharacter::Look(const FInputActionValue& Value)
     if (bIsLooking) 
     {
         AddControllerYawInput(LookAxis.X);
-        lookPitch += LookAxis.Y;
+        //AddControllerPitchInput(LookAxis.Y);
+
+        float value = LookAxis.Y;
+        lookPitch += value;
     }
 
     // lock between 60 and -60
